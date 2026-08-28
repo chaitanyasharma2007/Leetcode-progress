@@ -7,7 +7,7 @@ class Solution {
         int high = 0;
         int n = nums.length;
         int res = 0 ;
-        long prod = 1;
+        int prod = 1;
         while(high<n){
             prod*=nums[high];
             while(prod>=k){
